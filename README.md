@@ -14,6 +14,10 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
+### `npm test -- --watchAll=false`
+
+This command executes all available tests and exits after completing the test run. The --watchAll=false option disables Jest's watch mode, which normally keeps running and monitors file changes.
+
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
